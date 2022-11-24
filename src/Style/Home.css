@@ -1,0 +1,52 @@
+.Home-container {
+  display: flex;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+
+  color: white;
+}
+
+.Home-NavBar .Home {
+  color: rgba(255, 150, 90, 0.83);
+  font-size: 22px;
+}
+
+.home.lefth-side {
+  width: 50vw;
+  height: 100vh;
+
+  background: linear-gradient(180deg, #AF60AF 37.5%, rgba(255, 150, 90, 0.83) 86.46%, rgba(255, 150, 90, 0.87) 100%);
+}
+
+.home.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vw;
+  height: 100vh;
+  padding-left: 30px;
+  position: relative;
+  flex-grow: 2;
+}
+
+.Portifolio {
+  font-size: 102px;
+  background: linear-gradient(269.93deg, #FA9E6B 5.32%, #A357D7 27.13%, #9B51E0 47.91%, #B062C7 61.41%, #FA9F6C 97.77%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-align: center;
+}
+
+.Description {
+  font-family: Muli;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  font-size: 32px;
+}
+
+.Description .cargo{
+  font-size: 24px;
+}

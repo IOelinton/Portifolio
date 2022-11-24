@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+
+a {
+text-decoration: none;
+}
+
 .body-projetos{
   background-color: black;
   width: 100vw;
@@ -15,5 +21,8 @@
 }
 
 .container-projetos{
-  margin-top: 30px;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
 }
