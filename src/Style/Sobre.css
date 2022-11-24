@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.container-sobre {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.NavBar-sobre .Sobre {
+  color: rgba(255, 150, 90, 0.83);
+  font-size: 22px;
+}
+
+.left-side {
+  width: 50%;
+}
+
+.foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Right-side {
+  background-color: black;
+  color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Right-side .Apresentacao {
+  margin-left: 30px;
+  margin-top: 90px;
+  font-family: Muli;
+  font-size: 32px;
+  color: #FF965A;
+  width: 166px;
+  height: 139px;
+}
+
+.Right-side .resumo {
+  text-align: justify;
+  width: 80%;
+  font-size: 17px;
+  height: 357px;
+  margin:30px auto 0px 30px;
+  margin-bottom: 70px;
+}

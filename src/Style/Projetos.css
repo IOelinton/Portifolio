@@ -1,0 +1,19 @@
+.body-projetos{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.NavBar-projeto{
+  width: 65%;
+  margin: auto;
+}
+
+.NavBar-projeto .Projetos {
+  color: rgba(255, 150, 90, 0.83);
+  font-size: 22px;
+}
+
+.container-projetos{
+  margin-top: 30px;
+}
